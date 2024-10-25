@@ -2,16 +2,16 @@
 
 This is the working area for the individual Internet-Draft, "A Framework for Computing-Aware Traffic Steering (CATS)".
 
-* [Editor's Copy](https://boucadair.github.io/CATS-framework/#go.draft-ietf-cats-framework.html)
+* [Editor's Copy](https://ietf-wg-cats.github.io/CATS-framework/#go.draft-ietf-cats-framework.html)
 * [Datatracker Page](https://datatracker.ietf.org/doc/draft-ietf-cats-framework)
 * [Individual Draft](https://datatracker.ietf.org/doc/html/draft-ietf-cats-framework)
-* [Compare Editor's Copy to Individual Draft](https://boucadair.github.io/CATS-framework/#go.draft-ietf-cats-framework.diff)
+* [Compare Editor's Copy to Individual Draft](https://ietf-wg-cats.github.io/CATS-framework/#go.draft-ietf-cats-framework.diff)
 
 
 ## Contributing
 
 See the
-[guidelines for contributions](https://github.com/boucadair/CATS-framework/blob//CONTRIBUTING.md).
+[guidelines for contributions](https://github.com/ietf-wg-cats/CATS-framework/blob//CONTRIBUTING.md).
 
 Contributions can be made by creating pull requests.
 The GitHub interface supports creating pull requests using the Edit (✏) button.
