@@ -137,7 +137,7 @@ Client:
 : An endpoint that is connected to a service provider network.
 
 Computing-Aware Traffic Steering (CATS):
- :  A traffic engineering approach {{?I-D.ietf-teas-rfc3272bis}} that takes into account the dynamic nature of computing resources and network state to optimize service-specific traffic forwarding towards a given service contact instance. Various relevant metrics may be used to enforce such computing-aware traffic steering policies.
+ :  A traffic engineering approach {{?RFC9522}} that takes into account the dynamic nature of computing resources and network state to optimize service-specific traffic forwarding towards a given service contact instance. Various relevant metrics may be used to enforce such computing-aware traffic steering policies.
 
 Metric:
 : An information that provides suitable input information to a selection mechanism to determine a CATS egress node.
@@ -554,7 +554,7 @@ The affinity is configured on the C-PS when the service is deployed, or is deter
 
 Note that different services may have different notions of what constitutes a 'flow' and may, thus, identify a flow differently. Typically, a flow is identified by the 5-tuple transport coordinates (source and destination addresses, source and destination port numbers, and protocol). However, for instance, an RTP video stream may use different port numbers for video and audio channels: in that case, affinity may be identified as a combination of the two 5-tuple flow identifiers so that both flows are addressed to the same service contact instance.
 
-Hence, when specifying a protocol to communicate information about service contact instance affinity, a certain level of flexibility for identifying flows should be supported. Or, from a more general perspective, there should be a flexible mechanism to specify and identify the set of packets that are subject to a service contact instance affinity.
+Hence, when specifying a protocol to communicate information about service contact instance affinity, a certain level of flexibility for identifying flows should be supported. Or, from a more general perspective, there should be a mechanism to specify and identify the set of packets that are subject to a service contact instance affinity.
 
 More importantly, the means for identifying a flow for the purpose of ensuring instance affinity should be application-independent to avoid the need for service-specific instance affinity methods. However, service contact instance affinity information may be configurable on a per-service basis. For each service, the information can include the flow/packets identification type and means, affinity timeout value, etc.
 
